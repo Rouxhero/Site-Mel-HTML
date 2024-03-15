@@ -27,9 +27,11 @@
   justify-content: flex-end;
 }
 .navbar-interactive-text {
+  color: #862a7a;
   margin-left: var(--dl-space-space-twounits);
 }
 .navbar-interactive-text1 {
+  color: #862A7A;
   margin-left: var(--dl-space-space-twounits);
 }
 .navbar-interactive-navlink {
@@ -49,7 +51,11 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.navbar-interactive-text2 {
+  color: #862A7A;
+}
 .navbar-interactive-text3 {
+  color: #862A7A;
   margin-left: var(--dl-space-space-twounits);
 }
 .navbar-interactive-burger-menu {
