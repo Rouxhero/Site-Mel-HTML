@@ -386,7 +386,7 @@
   background-image: linear-gradient(0deg, rgb(242, 242, 242) 2.00%,rgba(254, 240, 255, 0.79) 99.00%);
 }
 .home-text09 {
-  margin-bottom: var(--dl-space-space-sixunits);
+  margin-bottom: var(--dl-space-space-fiveunits);
 }
 .home-container10 {
   height: 525px;
@@ -396,7 +396,7 @@
   justify-content: center;
 }
 .home-slider {
-  width: 70%;
+  width: 80%;
   height: auto;
   display: inline-block;
 }
@@ -410,29 +410,157 @@
   justify-content: center;
   background-image: url('https://demo.rouxhero.fr/user/pages/01.home/_DSC0631.jpg');
 }
-.home-text12 {
+.home-container11 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
   opacity: 0.3;
   transition: 0.3s;
+  align-items: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  flex-direction: column;
+}
+.home-container11:hover {
+  opacity: 1;
+}
+.home-text12 {
+  margin-bottom: var(--dl-space-space-fourunits);
   background-color: rgba(0, 0, 0, 0.54);
 }
-.home-text12:hover {
-  opacity: 1;
-  animation-name: fadeIn;
-  animation-delay: 0s;
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
+.home-text15 {
+  color: rgb(216, 245, 100);
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+.home-button {
+  color: #8fff66;
+  right: var(--dl-space-space-twounits);
+  bottom: var(--dl-space-space-unit);
+  position: absolute;
+  text-align: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: rgba(92, 214, 255, 0);
+}
+.home-text20 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+  text-decoration: underline;
 }
 .home-slider-slide1 {
+  color: #a7c91e;
   display: flex;
+  font-size: 30px;
+  align-items: center;
+  font-family: "Libre Baskerville";
   background-size: 100%;
-  background-image: url('https://images.unsplash.com/photo-1697384333613-de519c7367c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzAzN3w&ixlib=rb-4.0.3&q=80&w=1100');
+  justify-content: center;
+  background-image: url('https://demo.rouxhero.fr/user/pages/01.home/_DSC1055.jpg');
+}
+.home-container12 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  opacity: 0.3;
+  transition: 0.3s;
+  align-items: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  flex-direction: column;
+}
+.home-container12:hover {
+  opacity: 1;
+}
+.home-text23 {
+  margin-bottom: var(--dl-space-space-fourunits);
+  background-color: rgba(0, 0, 0, 0.54);
+}
+.home-text26 {
+  color: rgb(216, 245, 100);
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+.home-button1 {
+  color: #8fff66;
+  right: var(--dl-space-space-twounits);
+  bottom: var(--dl-space-space-unit);
+  position: absolute;
+  text-align: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: rgba(92, 214, 255, 0);
+}
+.home-text31 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+  text-decoration: underline;
 }
 .home-slider-slide2 {
+  color: #a7c91e;
   display: flex;
-  background-size: 100%;
-  background-image: url('https://images.unsplash.com/photo-1698180687511-bd6c0104ee98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzQ5NXw&ixlib=rb-4.0.3&q=80&w=1100');
+  font-size: 30px;
+  align-items: center;
+  font-family: "Libre Baskerville";
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://demo.rouxhero.fr/user/pages/01.home/DSC_0733.jpg');
+}
+.home-container13 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  opacity: 0.3;
+  transition: 0.3s;
+  align-items: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  flex-direction: column;
+}
+.home-container13:hover {
+  opacity: 1;
+}
+.home-text34 {
+  color: #1f4442;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.home-text35 {
+  color: #7a7a7a;
+  width: 45%;
+  height: auto;
+  text-align: center;
+}
+.home-button2 {
+  color: #8fff66;
+  right: var(--dl-space-space-twounits);
+  bottom: var(--dl-space-space-unit);
+  position: absolute;
+  text-align: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: rgba(92, 214, 255, 0);
+}
+.home-text38 {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+  text-decoration: underline;
 }
 .home-slider-pagination {
   display: block;
@@ -475,6 +603,10 @@
   }
   .home-image6 {
     margin-left: var(--dl-space-space-unit);
+  }
+  .home-slider-slide2 {
+    background-repeat: space;
+    background-position: center;
   }
 }
 @media(max-width: 767px) {
@@ -579,6 +711,14 @@
     height: auto;
   }
   .home-slider-slide {
+    width: 100%;
+    height: 100%;
+  }
+  .home-slider-slide1 {
+    width: 100%;
+    height: 100%;
+  }
+  .home-slider-slide2 {
     width: 100%;
     height: 100%;
   }
