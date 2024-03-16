@@ -717,12 +717,44 @@
     width: 100%;
     height: 100%;
   }
+  .home-text12 {
+    font-size: 1.5rem;
+  }
+  .home-text15 {
+    font-size: 20px;
+  }
+  .home-button {
+    bottom: 1rem;
+  }
   .home-slider-slide1 {
     width: 100%;
     height: 100%;
   }
+  .home-text23 {
+    font-size: 1.5rem;
+  }
+  .home-text26 {
+    font-size: 20px;
+  }
+  .home-button1 {
+    bottom: 1rem;
+  }
+  .home-text31 {
+    bottom: 2px;
+  }
   .home-slider-slide2 {
     width: 100%;
     height: 100%;
+  }
+  .home-text34 {
+    font-size: 1.5rem;
+  }
+  .home-text35 {
+    font-size: 20px;
+  }
+  .home-button2 {
+    bottom: 1rem;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
   }
 }
