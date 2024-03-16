@@ -233,6 +233,31 @@
   width: 100%;
   object-fit: cover;
 }
+.home-text {
+  left: 0px;
+  color: rgb(230, 230, 230);
+  right: 0px;
+  width: 100%;
+  position: absolute;
+  font-size: 90px;
+  margin-top: 18%;
+  text-align: center;
+  margin-left: auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  margin-right: auto;
+  margin-bottom: 25%;
+}
+.home-text01 {
+  color: #bdbcbc;
+  width: 100%;
+  position: absolute;
+  font-size: 30px;
+  margin-top: 25%;
+  text-align: center;
+  margin-left: auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  margin-right: auto;
+}
 .home-container02 {
   flex: 0 0 auto;
   width: 100%;
@@ -251,7 +276,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text {
+.home-text04 {
   color: #6b6969;
   font-style: italic;
   font-family: "Libre Baskerville";
@@ -265,9 +290,9 @@
   align-self: center;
   margin-top: 4%;
   align-items: stretch;
-  padding-left: var(--dl-space-space-sixunits);
+  padding-left: 8%;
   margin-bottom: 4%;
-  padding-right: var(--dl-space-space-sixunits);
+  padding-right: 8%;
   justify-content: space-between;
 }
 .home-container05 {
@@ -279,12 +304,15 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text01 {
+.home-text05 {
   color: rgb(64, 62, 62);
   width: 100%;
   height: auto;
   font-size: 28px;
+  font-style: normal;
   text-align: left;
+  font-family: "Roboto";
+  font-weight: 300;
 }
 .home-container06 {
   flex: 0 0 auto;
@@ -357,7 +385,7 @@
   justify-content: center;
   background-image: linear-gradient(0deg, rgb(242, 242, 242) 2.00%,rgba(254, 240, 255, 0.79) 99.00%);
 }
-.home-text05 {
+.home-text09 {
   margin-bottom: var(--dl-space-space-sixunits);
 }
 .home-container10 {
@@ -382,12 +410,12 @@
   justify-content: center;
   background-image: url('https://demo.rouxhero.fr/user/pages/01.home/_DSC0631.jpg');
 }
-.home-text08 {
+.home-text12 {
   opacity: 0.3;
   transition: 0.3s;
   background-color: rgba(0, 0, 0, 0.54);
 }
-.home-text08:hover {
+.home-text12:hover {
   opacity: 1;
   animation-name: fadeIn;
   animation-delay: 0s;
@@ -420,7 +448,10 @@
     width: 100%;
     display: block;
   }
-  .home-text {
+  .home-text01 {
+    margin-top: 28%;
+  }
+  .home-text04 {
     position: static;
   }
   .home-container04 {
@@ -430,7 +461,7 @@
   .home-container05 {
     width: 30%;
   }
-  .home-text01 {
+  .home-text05 {
     font-size: 22px;
   }
   .home-container06 {
@@ -447,6 +478,12 @@
   }
 }
 @media(max-width: 767px) {
+  .home-text {
+    font-size: 70px;
+  }
+  .home-text01 {
+    font-size: 25px;
+  }
   .home-container04 {
     margin-top: 5rem;
   }
@@ -455,7 +492,7 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-text01 {
+  .home-text05 {
     padding-top: var(--dl-space-space-threeunits);
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -493,6 +530,17 @@
     display: block;
   }
   .home-text {
+    font-size: 55px;
+    margin-top: 35%;
+  }
+  .home-text01 {
+    margin-top: 50%;
+  }
+  .home-container03 {
+    align-items: center;
+  }
+  .home-text04 {
+    font-size: 1.6rem;
     animation-name: fadeOut;
     animation-delay: 1s;
     animation-duration: 750ms;
@@ -506,7 +554,7 @@
   .home-container05 {
     align-self: center;
   }
-  .home-text01 {
+  .home-text05 {
     padding: var(--dl-space-space-unit);
     font-size: 19px;
     text-align: center;
@@ -529,5 +577,9 @@
   .home-slider {
     flex: 1;
     height: auto;
+  }
+  .home-slider-slide {
+    width: 100%;
+    height: 100%;
   }
 }
