@@ -1,7 +1,9 @@
 .navbar-interactive-container {
+  top: 0;
   width: 100%;
   display: flex;
-  position: absolute;
+  z-index: 999;
+  position: relative;
 }
 .navbar-interactive-navbar-interactive {
   width: 100%;
@@ -14,6 +16,7 @@
   justify-content: space-between;
 }
 .navbar-interactive-desktop-menu {
+  top: 0;
   flex: 1;
   display: flex;
   justify-content: space-between;
@@ -26,15 +29,11 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.navbar-interactive-text {
-  color: #862a7a;
-  margin-left: var(--dl-space-space-twounits);
+.navbar-interactive-navlink1 {
+  color: rgb(134, 42, 122);
+  text-decoration: none;
 }
-.navbar-interactive-text1 {
-  color: #862A7A;
-  margin-left: var(--dl-space-space-twounits);
-}
-.navbar-interactive-navlink {
+.navbar-interactive-navlink2 {
   display: contents;
 }
 .navbar-interactive-image {
@@ -51,17 +50,13 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.navbar-interactive-text2 {
-  color: #862A7A;
-}
-.navbar-interactive-text3 {
-  color: #862A7A;
-  margin-left: var(--dl-space-space-twounits);
+.navbar-interactive-text1 {
+  color: rgb(134, 42, 122);
 }
 .navbar-interactive-burger-menu {
   display: none;
 }
-.navbar-interactive-icon {
+.navbar-interactive-icon10 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -92,15 +87,12 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.navbar-interactive-logo {
-  height: 2rem;
-}
 .navbar-interactive-close-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.navbar-interactive-icon02 {
+.navbar-interactive-icon12 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -111,37 +103,47 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.navbar-interactive-text4 {
+.navbar-interactive-navlink3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.navbar-interactive-text2 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.navbar-interactive-text5 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-interactive-text6 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-interactive-text7 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-interactive-text8 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.navbar-interactive-icon04 {
+.navbar-interactive-icon14 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.navbar-interactive-icon06 {
+.navbar-interactive-icon16 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.navbar-interactive-icon08 {
+.navbar-interactive-icon18 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.navbar-interactive-root-class-name {
+.navbar-interactiveroot-class-name {
   width: 100%;
+}
+
+@media(max-width: 1600px) {
+  .navbar-interactive-navbar-interactive {
+    align-self: flex-start;
+  }
+  .navbar-interactive-desktop-menu {
+    align-self: flex-start;
+  }
+  .navbar-interactive-mobile-menu {
+    top: -738px;
+    right: -8px;
+  }
+}
+@media(max-width: 1200px) {
+  .navbar-interactive-mobile-menu {
+    top: 0px;
+  }
 }
 @media(max-width: 991px) {
   .navbar-interactive-container {
@@ -164,22 +166,13 @@
     align-items: center;
     justify-content: center;
   }
-  .navbar-interactive-text4 {
+  .navbar-interactive-mobile-menu {
+    top: 0px;
+  }
+  .navbar-interactive-navlink3 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navbar-interactive-text5 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navbar-interactive-text6 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navbar-interactive-text7 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navbar-interactive-text8 {
+  .navbar-interactive-text2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -197,12 +190,16 @@
   .navbar-interactive-burger-menu {
     display: flex;
   }
-  .navbar-interactive-icon {
+  .navbar-interactive-icon10 {
     fill: #ffffff;
   }
   .navbar-interactive-mobile-menu {
-    right: -11px;
-    bottom: -504px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
     padding: 16px;
+  }
+  .navbar-interactiveroot-class-name1 {
+    background-image: linear-gradient(270deg, rgb(189, 195, 199) 0.00%,rgba(44, 62, 80, 0.48) 100.00%);
   }
 }

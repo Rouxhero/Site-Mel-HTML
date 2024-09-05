@@ -1,0 +1,49 @@
+.banner1-container1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgba(44, 62, 80, 0.48) 100.00%);
+}
+.banner1-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner1-container2 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner1-fragment1 {
+  display: contents;
+}
+.banner1-text3 {
+  display: inline-block;
+  text-align: center;
+}
+.banner1-fragment2 {
+  display: contents;
+}
+.banner1-text4 {
+  display: inline-block;
+  text-align: center;
+}
+.banner1-fragment3 {
+  display: contents;
+}
+.banner1-text5 {
+  display: inline-block;
+}
+@media(max-width: 1600px) {
+  .banner1-container1 {
+    background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgba(44, 62, 80, 0.48) 100.00%);
+  }
+}
+@media(max-width: 991px) {
+  .banner1-container1 {
+    background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgba(44, 62, 80, 0.33) 100.00%,rgba(44, 62, 80, 0.33) 100.00%);
+  }
+}
