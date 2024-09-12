@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mélanie Lvcdb Photographie</title>
+    <title>Contactes - Mélanie Lvcdb Photographie</title>
     <meta
       name="description"
       content="Découvrez l'univers envoûtant de la photographie par Mélanie Lvcdb, où votre beauté s'exprime à travers mes cliché."
     />
-    <meta property="og:title" content="Mélanie Lvcdb Photographie" />
+    <meta
+      property="og:title"
+      content="Contactes - Mélanie Lvcdb Photographie"
+    />
     <meta
       property="og:description"
       content="Découvrez l'univers envoûtant de la photographie par Mélanie Lvcdb, où votre beauté s'exprime à travers mes cliché."
@@ -89,16 +92,16 @@
   <body>
     <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./index.css" rel="stylesheet" />
+      <link href="./contactes.css" rel="stylesheet" />
 
-      <div class="home-container10">
+      <div class="contactes-container">
         <navbar-interactive-wrapper
           class="navbar-interactive-wrapper"
           rootclassname="navbar-interactiveundefined"
         >
           <!--NavbarInteractive component-->
           <div
-            class="navbar-interactive-container navbar-interactiveroot-class-name"
+            class="navbar-interactive-container navbar-interactiveroot-class-name2"
           >
             <header
               data-thq="thq-navbar"
@@ -200,120 +203,147 @@
             </header>
           </div>
         </navbar-interactive-wrapper>
-        <div class="home-container11">
-          <img
-            alt="image"
-            src="public/header-background_mobile-1500h.jpg"
-            class="home-image1"
-          />
-          <img
-            alt="image"
-            src="public/header-background-1500h.jpg"
-            class="home-image2"
-          />
-          <h1 class="home-text10">Mélanie Lvcdb</h1>
-          <h3 class="home-text11">
-            <span>Photographie</span>
-            <br />
-          </h3>
-        </div>
-        <animate-on-reveal
-          animation="fadeIn"
-          duration="800ms"
-          delay="0s"
-          direction="normal"
-          easing="ease"
-          iteration="1"
-        >
-          <div data-thq-animate-on-reveal="true" class="home-container12">
-            <div class="home-container13">
-              <animate-on-reveal animation="pulse" duration="1500ms" delay="1s">
-                <h1 data-thq-animate-on-reveal="true" class="home-text14">
-                  Capturer l'instant présent
-                </h1>
-              </animate-on-reveal>
-              <div class="home-container14">
-                <div class="home-container15">
-                  <p class="home-text15">
-                    <br />
-                    <br />
-                    <span>
-                      Bienvenue sur mon site de photographie animalière, où
-                      chaque cliché capture la beauté et la diversité de la vie.
-                      Explorez ma galerie pour un voyage visuel inoubliable.
-                    </span>
+        <contact-form9-wrapper class="contact-form9-wrapper">
+          <!--ContactForm9 component-->
+          <div class="contact-form9-contact11 thq-section-padding">
+            <div class="contact-form9-max-width thq-section-max-width">
+              <div class="contact-form9-section-title thq-card">
+                <div class="contact-form9-content1">
+                  <h2>
+                    <fragment class="contactes-fragment2">
+                      <span class="contactes-text13 thq-heading-2">
+                        Me contacter
+                      </span>
+                    </fragment>
+                  </h2>
+                  <p>
+                    <fragment class="contactes-fragment3">
+                      <span class="contactes-text14 thq-body-large">
+                        Besoin specifique ? Une question ? N'hesitez pas a me
+                        contacter pour plus d'info
+                      </span>
+                    </fragment>
                   </p>
-                  <div class="home-container16">
-                    <img
-                      alt="image"
-                      src="public/external/362370738_728259989064910_7018802370022807096_n-200h.jpg"
-                      class="home-image3"
-                    />
-                    <img
-                      alt="image"
-                      src="public/external/100474183_2909126925849070_1456771096266145792_n-200h.jpg"
-                      class="home-image4"
-                    />
-                  </div>
                 </div>
-                <div class="home-gallery">
-                  <div class="home-container17">
-                    <img
-                      alt="image"
-                      src="public/external/362370738_728259989064910_7018802370022807096_n-200h.jpg"
-                      loading="eager"
-                      class="home-image5"
-                    />
-                    <img
-                      alt="image"
-                      src="public/external/100474183_2909126925849070_1456771096266145792_n-200h.jpg"
-                      loading="eager"
-                      class="home-image6"
+              </div>
+              <div class="contact-form9-content2">
+                <form class="contact-form9-form thq-card">
+                  <div class="contact-form9-input1">
+                    <label for="contact-form-9-name" class="thq-body-small">
+                      Nom
+                    </label>
+                    <input
+                      type="text"
+                      id="contact-form-9-name"
+                      placeholder="Full Name"
+                      class="thq-input"
                     />
                   </div>
-                  <div class="home-container18">
+                  <div class="contact-form9-input2">
+                    <label for="contact-form-9-email" class="thq-body-small">
+                      Email
+                    </label>
+                    <input
+                      type="text"
+                      id="contact-form-9-email"
+                      required="true"
+                      placeholder="Email"
+                      class="thq-input"
+                    />
+                  </div>
+                  <div class="contact-form9-container">
+                    <div class="contact-form9-input3">
+                      <label
+                        for="contact-form-9-options"
+                        class="thq-body-small"
+                      >
+                        Choisir un sujet
+                      </label>
+                      <select
+                        id="contact-form-9-options"
+                        placeholder="Select one"
+                        class="thq-select"
+                      >
+                        <option value="Option 1">Devis</option>
+                        <option value="Option 1">Reclamation</option>
+                        <option value="Option 1">Information</option>
+                        <option value="Option 2">Autres</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="contact-form9-input4">
+                    <label for="contact-form-9-message" class="thq-body-small">
+                      Message
+                    </label>
+                    <textarea
+                      id="contact-form-9-message"
+                      rows="3"
+                      placeholder="Enter your message"
+                      class="thq-input"
+                    ></textarea>
+                  </div>
+                  <div class="contact-form9-checkbox1">
+                    <input
+                      type="checkbox"
+                      id="contact-form-9-check"
+                      checked="true"
+                      required="true"
+                      class="thq-checkbox"
+                    />
+                    <label for="contact-form-9-check" class="thq-body-small">
+                      I accept the Terms
+                    </label>
+                  </div>
+                  <button type="submit" class="thq-button-filled">
+                    <span>
+                      <fragment class="contactes-fragment4">
+                        <span class="contactes-text15 thq-body-small">
+                          Submit
+                        </span>
+                      </fragment>
+                    </span>
+                  </button>
+                </form>
+                <div class="contact-form9-content3 thq-card">
+                  <div class="contact-form9-row1 thq-flex-row">
+                    <div class="contact-form9-content4">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        class="contact-form9-icon1 thq-icon-small"
+                      >
+                        <path
+                          d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                        ></path>
+                      </svg>
+                      <div class="contact-form9-contact-info">
+                        <h3 class="thq-heading-3">Email</h3>
+                        <span>
+                          <fragment class="contactes-fragment1">
+                            <span class="contactes-text10 thq-body-small">
+                              <span>contact@melaniephoto.fr</span>
+                              <br />
+                            </span>
+                          </fragment>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="contact-form9-content5"></div>
+                  </div>
+                  <div class="thq-flex-row contact-form9-row2">
                     <img
                       alt="image"
-                      src="public/81339768_1673524286121010_3021586059117985792_n-200w.jpg"
-                      loading="eager"
-                      class="home-image7"
+                      src="public/81339768_1673524286121010_3021586059117985792_n-1400w.jpg"
+                      class="contact-form9-image thq-img-ratio-1-1"
                     />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </animate-on-reveal>
-        <animate-on-reveal
-          animation="fadeIn"
-          duration="1500ms"
-          delay="500ms"
-          direction="normal"
-          easing="ease"
-          iteration="1"
-        >
-          <div data-thq-animate-on-reveal="true" class="home-container19">
-            <div class="home-container20">
-              <div class="home-features">
-                <h1 class="home-text19">Quelques Clichés</h1>
-              </div>
-            </div>
-          </div>
-        </animate-on-reveal>
-        <div class="home-banner">
-          <h2 class="home-text20">
-            Transformez vos moments en souvenirs éternels
-          </h2>
-          <button class="home-button button">
-            <span>
-              <span class="home-text22">En savoir plus</span>
-              <br />
-            </span>
-          </button>
-        </div>
-        <footer-wrapper class="footer-wrapper">
+        </contact-form9-wrapper>
+        <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
           <!--Footer component-->
-          <footer class="footer-footer footer">
+          <footer class="footer-footer footerroot-class-name1">
             <div class="footer-container1">
               <img
                 alt="logo"
@@ -322,21 +352,21 @@
               />
               <nav class="footer-nav">
                 <a href="tarifs.html" class="footer-navlink1">
-                  <fragment class="home-fragment2">
-                    <span class="home-text25">Services</span>
+                  <fragment class="contactes-fragment6">
+                    <span class="contactes-text17">Services</span>
                   </fragment>
                 </a>
                 <a href="index.html" class="footer-navlink2">
-                  <fragment class="home-fragment3">
-                    <span class="home-text26">
+                  <fragment class="contactes-fragment7">
+                    <span class="contactes-text18">
                       <span>Home</span>
                       <br />
                     </span>
                   </fragment>
                 </a>
                 <a href="contactes.html" class="footer-navlink3">
-                  <fragment class="home-fragment1">
-                    <span class="home-text24">Contactes</span>
+                  <fragment class="contactes-fragment5">
+                    <span class="contactes-text16">Contactes</span>
                   </fragment>
                 </a>
               </nav>
